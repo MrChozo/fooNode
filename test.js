@@ -1,3 +1,4 @@
 const _ = require("underscore");
-console.log(_.range(5));
+const max = _.max(_.range(30));
+console.log(max);
 
